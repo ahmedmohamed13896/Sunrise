@@ -129,7 +129,7 @@
 }
 
 .header {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 .substance {
@@ -234,6 +234,7 @@
 
 .footer .address {
   max-width: 160px;
+  padding-right: 10px;
   background-color: transparent;
   color: #FFFFFF;
   font-size: 13px;
@@ -263,7 +264,7 @@
   font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
 }
 
-.footer .footer-nav > li a:hover {
+.footer .footer-nav > li a:hover, .footer .footer-nav > li a.active {
   background-color: #AA8A63;
 }
 
@@ -334,7 +335,7 @@
 }
 
 .footer .footer-content {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 @media (max-width: 761px) {
@@ -377,5 +378,53 @@
     text-align: center;
     margin: auto;
   }
+}
+
+@media (max-width: 575px) {
+  .copyrights p {
+    text-align: center !important;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer .privacy-policy {
+    left: inherit;
+    right: initial;
+    margin: 0 auto;
+    text-align: center;
+    width: 99%;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer .ready p {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .order-xs-13 {
+    order: 13 !important;
+  }
+}
+
+.info-section {
+  padding: 40px 0;
+}
+
+.info-section .upon-arrival {
+  padding-right: 30px;
+}
+
+.h3-black {
+  color: #053441;
+  font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0;
+  padding-bottom: 15px;
 }
 
