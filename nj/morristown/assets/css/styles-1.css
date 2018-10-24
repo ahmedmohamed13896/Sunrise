@@ -216,7 +216,7 @@
 .header .photo-tour-link {
   display: block;
   text-align: left;
-  background: #7FB306;
+  background: rgba(126, 179, 6,0.9);
   color: #FFF;
   width: 337px;
   margin: 0px auto;
@@ -247,7 +247,7 @@
 }
 
 .header .photo-tour-link:hover {
-  background: #1A8300;
+  background: rgb(26, 131, 0);
 }
 
 .insurance {
@@ -872,7 +872,7 @@
   font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
   font-size: 16px;
   padding: 15px;
-  display: none;
+  /*display: none;*/
 }
 
 .accordion .head-body p {
@@ -921,6 +921,7 @@
   font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
   font-size: 16px;
   padding: 0;
+  line-height: 19px;
 }
 
 .color-dark {
@@ -959,5 +960,57 @@
 
 .privacy-policy.active {
   color: #D7FED5 !important;
+}
+
+.accordion .h3:hover, .accordion .h3.active {
+  background: #AA8A63;
+  cursor: pointer;
+}
+
+.privacy-policy:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (max-width: 575px) {
+  .footer .privacy-policy {
+    left: inherit;
+    right: initial;
+    margin: 0 auto;
+    text-align: center;
+    width: 99%;
+  }
+}
+
+.footer .privacy-policy {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 575px) {
+  .privacy-policy {
+    margin: 0 auto;
+    text-align: center;
+    width: 99%;
+  }
+}
+
+.privacy-policy {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  line-height: 14px;
+  color: #555;
+  text-decoration: none;
+  font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+  padding-top: 15px;
 }
 
