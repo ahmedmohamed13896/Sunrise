@@ -409,6 +409,7 @@ header .jumbotron {
 @media (max-width: 767px) {
   .testimonials .leftside {
     text-align: center;
+    margin: 0 auto;
   }
 }
 
@@ -619,5 +620,10 @@ header .jumbotron {
     width: 100%;
     height: 100%;
   }
+}
+
+.testimonials .leftside {
+  max-width: 494px;
+  max-height: 368px;
 }
 
