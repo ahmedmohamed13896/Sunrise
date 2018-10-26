@@ -627,3 +627,10 @@ header .jumbotron {
   max-height: 368px;
 }
 
+@media (max-width: 575px) {
+  .mynav .navbar-brand {
+    margin: 0;
+    margin-left: 5px;
+  }
+}
+
