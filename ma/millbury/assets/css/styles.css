@@ -630,6 +630,7 @@ a, a:active, a:visited {
   text-transform: uppercase;
   margin-top: 12px;
   margin-bottom: 12px;
+  line-height: 18px;
 }
 
 .content-left ol, .content-left p, .content-left ul {
@@ -736,6 +737,7 @@ a, a:active, a:visited {
 .figure a {
   display: block;
   width: 100%;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {
@@ -765,5 +767,112 @@ a, a:active, a:visited {
   .figure.right img {
     height: 1555px;
   }
+}
+
+.form-content {
+  color: #555;
+  font-weight: normal;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.form-content h3 {
+  color: #555555;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.form-content p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+@media (min-width: 768px) {
+  .form-content .form {
+    max-width: 50%;
+    margin-right: auto;
+  }
+}
+
+.form-content .form label {
+  display: block;
+  color: #333;
+  font-size: 12px;
+  padding: 8px 10px;
+  padding-left: 0;
+  border: 1px solid transparent;
+  /*font-weight: 600;*/
+  font-family: 'Open Sans', sans-serif;
+}
+
+.body-inner h1 {
+  color: #166fa3;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.form-content .form textarea {
+  display: block;
+  background: #fff;
+  padding: 8px 10px;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid #cecece;
+  font-size: 12px;
+  font-weight: 600;
+  height: 180px;
+}
+
+.form-content .form-actions {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.form-content .form-actions input {
+  border: 1px solid #a8e1ff;
+  color: #3e628d;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  background: #ffffff;
+  background-image: -moz-linear-gradient(top, #cccccc 0%, #cccccc 100%);
+  background-image: -webkit-linear-gradient(top, #cccccc 0%, #cccccc 100%);
+  background-image: -o-linear-gradient(top, #cccccc 0%, #cccccc 100%);
+  background-image: linear-gradient(to bottom, #cccccc 0%, #cccccc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  background: #cccccc;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #cccccc), color-stop(1, #ffffff));
+  background: -ms-linear-gradient(bottom, #cccccc, #ffffff);
+  background: -moz-linear-gradient(center bottom, #cccccc 0%, #ffffff 100%);
+  padding: 6px;
+  font-size: 14px;
+  width: 207px;
+  cursor: pointer;
+}
+
+.font-14 {
+  font-size: 14px !important;
+  line-height: 20px;
+  color: #555;
+}
+
+.font-11 {
+  font-size: 11px !important;
+}
+
+.direction-content {
+  padding: 0 16px;
+}
+
+.font-12 {
+  font-size: 12px !important;
 }
 
