@@ -468,8 +468,9 @@ header .jumbotron {
 }
 
 @media (max-width: 575px) {
-  .slider .anchor-link {
-    width: 20%;
+  .slider .anchor-link, .slider .anchor-link img {
+    width: 64px;
+    height: 64px;
   }
 }
 
@@ -635,7 +636,7 @@ header .jumbotron {
 }
 
 .loc-icon.millbury {
-  top: 19%;
-  right: 26%;
+  top: 15.5%;
+  right: 23%;
 }
 
