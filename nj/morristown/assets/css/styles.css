@@ -338,7 +338,7 @@
   margin-top: 10px;
 }
 
-@media (max-width: 761px) {
+@media (max-width: 768px) {
   .footer .address {
     float: none;
     margin: auto;
